@@ -9,6 +9,8 @@ import {bindActionCreators} from "redux";
 //create variable
 const RouterWithRedux = connect()(Router);
 
+import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon } from 'native-base';
+​
 
 class MyportfolioRouter  extends Component {
   constructor(props){
@@ -21,6 +23,7 @@ class MyportfolioRouter  extends Component {
 
   render() {
     return (
+
       <RouterWithRedux
         hideNavBar={false}
         showNavigationBar={true}
