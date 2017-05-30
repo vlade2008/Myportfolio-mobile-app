@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import routes from './routes';
 import profile from './profilereducers'
+import mynavreducers from './mynavreducers'
 
 const rootReducer = combineReducers({
-  routes,
-  profile
+  profile,
+  nav:mynavreducers
 });
 
 export default rootReducer;

@@ -9,14 +9,13 @@ import {
 
 import {bindActionCreators} from 'redux';
 import { connect } from 'react-redux';
-import * as MyStyle from '../styles/index'
 
 
  class Index extends Component {
   render() {
     return (
-      <View style={{backgroundColor:MyStyle.mainCOlor,marginTop:200}}>
-        <Text style={{color:'black'}}>asdasd</Text>
+      <View style={{backgroundColor:'red',marginTop:200}}>
+        <Text style={{color:'black'}}>MY PORTFOLIO</Text>
       </View>
     )
   }
